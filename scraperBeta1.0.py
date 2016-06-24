@@ -7,13 +7,6 @@ import os
 import re
 import time
 
-print ("Welcome to Pastebin Scraper")
-print("Please type the number for the search mode")
-print ("1: Scan a specific word.")
-print ("2: Scan for various words, dividing them by space bar.")
-
-input = raw_input("")
-
 word = raw_input("Gimme a word: ")
 while (1<2):
 	tempUrl = "https://pastebin.com"
